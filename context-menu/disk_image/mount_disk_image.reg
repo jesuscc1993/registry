@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Windows.IsoFile\shell\mount_with_powershell]
+@="Mount with PowerShell"
+"Icon"="%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+
+[HKEY_CLASSES_ROOT\Windows.IsoFile\shell\mount_with_powershell\command]
+@="powershell.exe -NoProfile -Command Mount-DiskImage -ImagePath \"\"%1\"\""
