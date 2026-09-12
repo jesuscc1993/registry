@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\Pinga]
+@="Compress with Pinga"
+"Icon"="Z:\\Software\\Multimedia\\Pinga\\pinga.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\Pinga\command]
+@="\"Z:\\Software\\Multimedia\\Pinga\\pinga.exe\" \"%1\""

@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.svg\shell\SVGCleaner]
+@="Clean with SVG Cleaner"
+"Icon"="Z:\\Software\\Multimedia\\SVG Cleaner\\SVGCleaner.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.svg\shell\SVGCleaner\command]
+@="\"Z:\\Software\\Multimedia\\SVG Cleaner\\SVGCleaner.exe\" \"%1\""

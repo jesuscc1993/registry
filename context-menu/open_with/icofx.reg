@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\icofx]
+@="Edit with IcoFX"
+"Icon"="Z:\\Software\\Multimedia\\icofx3\\icofx3.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\icofx\command]
+@="\"Z:\\Software\\Multimedia\\icofx3\\icofx3.exe\" \"%1\""
